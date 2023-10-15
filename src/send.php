@@ -1,4 +1,9 @@
 <?php
+    require_once('./authorize.php');
+    require_once('./sendError.php');
+    
+    authorize($_COOKIE['webformat-login'], $_COOKIE['webformat-password']);
+
     if(array_key_exists('url', $_POST)) $url = $_POST['url'];
     else $url = "https://httpbin.org/anything";
     if(!array_key_exists('file', $_FILES) || $_FILES['file'] == null) sendError('Attach a file please');
@@ -12,19 +17,11 @@
     curl_setopt($ch, CURLOPT_HEADER, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST,           1);
-    curl_setopt($ch, CURLOPT_POSTFIELDS,     array('file' => $file, 'filehash' => $hash)); 
-    curl_setopt($ch, CURLOPT_HTTPHEADER,     array("Content-Type: multipart/form-data", "Api-Key: " . getallheaders()['Api-Key'])); 
+    curl_setopt($ch, CURLOPT_POSTFIELDS,     array('file' => $file, 'filehash' => $hash, 'login' => $_COOKIE['webformat-login'], 'password' => $_COOKIE['webformat-password'])); 
+    curl_setopt($ch, CURLOPT_HTTPHEADER,     array("Content-Type: multipart/form-data")); 
 
     $response = curl_exec($ch);
     curl_close($ch);
 
     echo $response;
-
-    function sendError($text) {
-        echo json_encode([
-            'success' => false, 
-            'error' => $text
-        ]);
-        exit;
-    }
 ?>
