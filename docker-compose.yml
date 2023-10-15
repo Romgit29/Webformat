@@ -1,0 +1,58 @@
+version: '3'
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx-webformat1
+    hostname: nginx-webformat1
+    ports:
+      - 8083:80
+    volumes:
+      - ./nginx/sites-enabled:/etc/nginx/conf.d
+      - ./nginx/logs:/var/log/nginx/
+      - ./src:/var/www/html
+    depends_on:
+      - php-fpm
+    links:
+      - php-fpm
+      
+  nginx-recieve:
+    image: nginx:latest
+    container_name: nginx-webformat2
+    hostname: nginx-webformat2
+    ports:
+      - 8084:80
+    volumes:
+      - ./nginx/sites-enabled:/etc/nginx/conf.d
+      - ./nginx/logs:/var/log/nginx/
+      - ./src:/var/www/html
+    depends_on:
+      - php-fpm
+    links:
+      - php-fpm
+
+  php-fpm: &php-fpm-template
+    image: joseluisq/php-fpm:8.1
+    container_name: php-webformat
+    hostname: php-fpm
+    working_dir: /var/www/html
+    environment:
+      - "ENV_SUBSTITUTION_ENABLE=true"
+      - "PHP_MEMORY_LIMIT=512M"
+      - "PHP_FPM_LISTEN=9000"
+      - "PHP_SESSION_GC_MAXLIFETIME=7200"
+    volumes:
+      - ./src:/var/www/html:rw
+      
+  pgsql:
+    image: postgres:13.7-alpine
+    container_name: pgsql-webformat
+    hostname: &pgsqlhost pgsql
+    environment:
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: postgres
+      POSTGRES_USER: webformat
+    ports:
+      - 5051:5432
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data:rw
+      - ./app/pgsql:/var/database

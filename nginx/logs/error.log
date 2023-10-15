@@ -1,0 +1,1528 @@
+2023/10/14 07:05:04 [notice] 1#1: using the "epoll" event method
+2023/10/14 07:05:04 [notice] 1#1: nginx/1.25.0
+2023/10/14 07:05:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/14 07:05:04 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/14 07:05:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/14 07:05:04 [notice] 1#1: start worker processes
+2023/10/14 07:05:04 [notice] 1#1: start worker process 20
+2023/10/14 07:05:04 [notice] 1#1: start worker process 21
+2023/10/14 07:05:04 [notice] 1#1: start worker process 22
+2023/10/14 07:05:04 [notice] 1#1: start worker process 23
+2023/10/14 07:05:04 [notice] 1#1: start worker process 24
+2023/10/14 07:05:04 [notice] 1#1: start worker process 25
+2023/10/14 07:05:04 [notice] 1#1: start worker process 26
+2023/10/14 07:05:04 [notice] 1#1: start worker process 27
+2023/10/14 07:05:04 [notice] 1#1: start worker process 28
+2023/10/14 07:05:04 [notice] 1#1: start worker process 29
+2023/10/14 07:05:04 [notice] 1#1: start worker process 30
+2023/10/14 07:05:04 [notice] 1#1: start worker process 31
+2023/10/14 07:05:04 [notice] 1#1: start worker process 32
+2023/10/14 07:05:04 [notice] 1#1: start worker process 33
+2023/10/14 07:05:04 [notice] 1#1: start worker process 34
+2023/10/14 07:05:04 [notice] 1#1: start worker process 35
+2023/10/14 11:34:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/14 11:34:13 [notice] 20#20: gracefully shutting down
+2023/10/14 11:34:13 [notice] 23#23: gracefully shutting down
+2023/10/14 11:34:13 [notice] 22#22: gracefully shutting down
+2023/10/14 11:34:13 [notice] 20#20: exiting
+2023/10/14 11:34:13 [notice] 21#21: gracefully shutting down
+2023/10/14 11:34:13 [notice] 25#25: gracefully shutting down
+2023/10/14 11:34:13 [notice] 23#23: exiting
+2023/10/14 11:34:13 [notice] 21#21: exiting
+2023/10/14 11:34:13 [notice] 22#22: exiting
+2023/10/14 11:34:13 [notice] 28#28: gracefully shutting down
+2023/10/14 11:34:13 [notice] 25#25: exiting
+2023/10/14 11:34:13 [notice] 20#20: exit
+2023/10/14 11:34:13 [notice] 28#28: exiting
+2023/10/14 11:34:13 [notice] 23#23: exit
+2023/10/14 11:34:13 [notice] 26#26: gracefully shutting down
+2023/10/14 11:34:13 [notice] 22#22: exit
+2023/10/14 11:34:13 [notice] 35#35: gracefully shutting down
+2023/10/14 11:34:13 [notice] 25#25: exit
+2023/10/14 11:34:13 [notice] 21#21: exit
+2023/10/14 11:34:13 [notice] 26#26: exiting
+2023/10/14 11:34:13 [notice] 28#28: exit
+2023/10/14 11:34:13 [notice] 35#35: exiting
+2023/10/14 11:34:13 [notice] 26#26: exit
+2023/10/14 11:34:13 [notice] 35#35: exit
+2023/10/14 11:34:13 [notice] 27#27: gracefully shutting down
+2023/10/14 11:34:13 [notice] 27#27: exiting
+2023/10/14 11:34:13 [notice] 27#27: exit
+2023/10/14 11:34:13 [notice] 31#31: gracefully shutting down
+2023/10/14 11:34:13 [notice] 29#29: gracefully shutting down
+2023/10/14 11:34:13 [notice] 24#24: gracefully shutting down
+2023/10/14 11:34:13 [notice] 31#31: exiting
+2023/10/14 11:34:13 [notice] 29#29: exiting
+2023/10/14 11:34:13 [notice] 24#24: exiting
+2023/10/14 11:34:13 [notice] 30#30: gracefully shutting down
+2023/10/14 11:34:13 [notice] 33#33: gracefully shutting down
+2023/10/14 11:34:13 [notice] 34#34: gracefully shutting down
+2023/10/14 11:34:13 [notice] 30#30: exiting
+2023/10/14 11:34:13 [notice] 29#29: exit
+2023/10/14 11:34:13 [notice] 32#32: gracefully shutting down
+2023/10/14 11:34:13 [notice] 31#31: exit
+2023/10/14 11:34:13 [notice] 24#24: exit
+2023/10/14 11:34:13 [notice] 33#33: exiting
+2023/10/14 11:34:13 [notice] 34#34: exiting
+2023/10/14 11:34:13 [notice] 32#32: exiting
+2023/10/14 11:34:13 [notice] 30#30: exit
+2023/10/14 11:34:13 [notice] 33#33: exit
+2023/10/14 11:34:13 [notice] 34#34: exit
+2023/10/14 11:34:13 [notice] 32#32: exit
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/10/14 11:34:14 [notice] 1#1: worker process 25 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: worker process 28 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: worker process 29 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: worker process 34 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/10/14 11:34:14 [notice] 1#1: worker process 27 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/10/14 11:34:14 [notice] 1#1: worker process 23 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: worker process 22 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: worker process 32 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/10/14 11:34:14 [notice] 1#1: worker process 26 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/10/14 11:34:14 [notice] 1#1: worker process 31 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/10/14 11:34:14 [notice] 1#1: worker process 30 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: worker process 33 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: worker process 35 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/10/14 11:34:14 [notice] 1#1: worker process 20 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/10/14 11:34:14 [notice] 1#1: worker process 21 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/10/14 11:34:14 [notice] 1#1: worker process 24 exited with code 0
+2023/10/14 11:34:14 [notice] 1#1: exit
+2023/10/14 11:34:15 [notice] 1#1: using the "epoll" event method
+2023/10/14 11:34:15 [notice] 1#1: nginx/1.25.0
+2023/10/14 11:34:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/14 11:34:15 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/14 11:34:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/14 11:34:15 [notice] 1#1: start worker processes
+2023/10/14 11:34:15 [notice] 1#1: start worker process 28
+2023/10/14 11:34:15 [notice] 1#1: start worker process 29
+2023/10/14 11:34:15 [notice] 1#1: start worker process 30
+2023/10/14 11:34:15 [notice] 1#1: start worker process 31
+2023/10/14 11:34:15 [notice] 1#1: start worker process 32
+2023/10/14 11:34:15 [notice] 1#1: start worker process 33
+2023/10/14 11:34:15 [notice] 1#1: start worker process 34
+2023/10/14 11:34:15 [notice] 1#1: start worker process 35
+2023/10/14 11:34:15 [notice] 1#1: start worker process 36
+2023/10/14 11:34:15 [notice] 1#1: start worker process 37
+2023/10/14 11:34:15 [notice] 1#1: start worker process 38
+2023/10/14 11:34:15 [notice] 1#1: start worker process 39
+2023/10/14 11:34:15 [notice] 1#1: start worker process 40
+2023/10/14 11:34:15 [notice] 1#1: start worker process 41
+2023/10/14 11:34:15 [notice] 1#1: start worker process 42
+2023/10/14 11:34:15 [notice] 1#1: start worker process 43
+2023/10/14 11:34:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/14 11:34:19 [notice] 29#29: gracefully shutting down
+2023/10/14 11:34:19 [notice] 28#28: gracefully shutting down
+2023/10/14 11:34:19 [notice] 30#30: gracefully shutting down
+2023/10/14 11:34:19 [notice] 32#32: gracefully shutting down
+2023/10/14 11:34:19 [notice] 33#33: gracefully shutting down
+2023/10/14 11:34:19 [notice] 29#29: exiting
+2023/10/14 11:34:19 [notice] 35#35: gracefully shutting down
+2023/10/14 11:34:19 [notice] 31#31: gracefully shutting down
+2023/10/14 11:34:19 [notice] 28#28: exiting
+2023/10/14 11:34:19 [notice] 34#34: gracefully shutting down
+2023/10/14 11:34:19 [notice] 30#30: exiting
+2023/10/14 11:34:19 [notice] 32#32: exiting
+2023/10/14 11:34:19 [notice] 33#33: exiting
+2023/10/14 11:34:19 [notice] 36#36: gracefully shutting down
+2023/10/14 11:34:19 [notice] 35#35: exiting
+2023/10/14 11:34:19 [notice] 37#37: gracefully shutting down
+2023/10/14 11:34:19 [notice] 31#31: exiting
+2023/10/14 11:34:19 [notice] 41#41: gracefully shutting down
+2023/10/14 11:34:19 [notice] 42#42: gracefully shutting down
+2023/10/14 11:34:19 [notice] 38#38: gracefully shutting down
+2023/10/14 11:34:19 [notice] 34#34: exiting
+2023/10/14 11:34:19 [notice] 36#36: exiting
+2023/10/14 11:34:19 [notice] 29#29: exit
+2023/10/14 11:34:19 [notice] 28#28: exit
+2023/10/14 11:34:19 [notice] 37#37: exiting
+2023/10/14 11:34:19 [notice] 33#33: exit
+2023/10/14 11:34:19 [notice] 41#41: exiting
+2023/10/14 11:34:19 [notice] 32#32: exit
+2023/10/14 11:34:19 [notice] 42#42: exiting
+2023/10/14 11:34:19 [notice] 30#30: exit
+2023/10/14 11:34:19 [notice] 38#38: exiting
+2023/10/14 11:34:19 [notice] 35#35: exit
+2023/10/14 11:34:19 [notice] 31#31: exit
+2023/10/14 11:34:19 [notice] 34#34: exit
+2023/10/14 11:34:19 [notice] 36#36: exit
+2023/10/14 11:34:19 [notice] 37#37: exit
+2023/10/14 11:34:19 [notice] 41#41: exit
+2023/10/14 11:34:19 [notice] 42#42: exit
+2023/10/14 11:34:19 [notice] 38#38: exit
+2023/10/14 11:34:19 [notice] 40#40: gracefully shutting down
+2023/10/14 11:34:19 [notice] 40#40: exiting
+2023/10/14 11:34:19 [notice] 40#40: exit
+2023/10/14 11:34:19 [notice] 39#39: gracefully shutting down
+2023/10/14 11:34:19 [notice] 39#39: exiting
+2023/10/14 11:34:19 [notice] 43#43: gracefully shutting down
+2023/10/14 11:34:19 [notice] 39#39: exit
+2023/10/14 11:34:19 [notice] 43#43: exiting
+2023/10/14 11:34:19 [notice] 43#43: exit
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/10/14 11:34:20 [notice] 1#1: worker process 41 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/10/14 11:34:20 [notice] 1#1: worker process 38 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/10/14 11:34:20 [notice] 1#1: worker process 34 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/10/14 11:34:20 [notice] 1#1: worker process 31 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: worker process 37 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/10/14 11:34:20 [notice] 1#1: worker process 42 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/10/14 11:34:20 [notice] 1#1: worker process 29 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: worker process 39 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: worker process 32 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/10/14 11:34:20 [notice] 1#1: worker process 36 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: worker process 43 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/10/14 11:34:20 [notice] 1#1: worker process 40 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/10/14 11:34:20 [notice] 1#1: worker process 33 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/10/14 11:34:20 [notice] 1#1: worker process 28 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/10/14 11:34:20 [notice] 1#1: worker process 30 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/10/14 11:34:20 [notice] 1#1: worker process 35 exited with code 0
+2023/10/14 11:34:20 [notice] 1#1: exit
+2023/10/14 11:35:26 [notice] 1#1: using the "epoll" event method
+2023/10/14 11:35:26 [notice] 1#1: nginx/1.25.0
+2023/10/14 11:35:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/14 11:35:26 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/14 11:35:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/14 11:35:26 [notice] 1#1: start worker processes
+2023/10/14 11:35:26 [notice] 1#1: start worker process 28
+2023/10/14 11:35:26 [notice] 1#1: start worker process 29
+2023/10/14 11:35:26 [notice] 1#1: start worker process 30
+2023/10/14 11:35:26 [notice] 1#1: start worker process 31
+2023/10/14 11:35:26 [notice] 1#1: start worker process 32
+2023/10/14 11:35:26 [notice] 1#1: start worker process 33
+2023/10/14 11:35:26 [notice] 1#1: start worker process 34
+2023/10/14 11:35:26 [notice] 1#1: start worker process 35
+2023/10/14 11:35:26 [notice] 1#1: start worker process 36
+2023/10/14 11:35:26 [notice] 1#1: start worker process 37
+2023/10/14 11:35:26 [notice] 1#1: start worker process 38
+2023/10/14 11:35:26 [notice] 1#1: start worker process 39
+2023/10/14 11:35:26 [notice] 1#1: start worker process 40
+2023/10/14 11:35:26 [notice] 1#1: start worker process 41
+2023/10/14 11:35:26 [notice] 1#1: start worker process 42
+2023/10/14 11:35:26 [notice] 1#1: start worker process 43
+2023/10/14 11:36:05 [error] 28#28: *1 directory index of "/var/www/html/" is forbidden, client: 192.168.192.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost:8083"
+2023/10/14 11:36:05 [error] 28#28: *1 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 192.168.192.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8083", referrer: "http://localhost:8083/"
+2023/10/14 13:53:34 [warn] 32#32: *23 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 192.168.192.1, server: localhost, request: "GET /send.php HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:8083"
+2023/10/14 13:56:36 [warn] 35#35: *25 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 192.168.192.1, server: localhost, request: "GET /send.php HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:8083"
+2023/10/14 14:16:34 [warn] 43#43: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:16:36 [warn] 43#43: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:17:35 [warn] 43#43: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:17:36 [warn] 43#43: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:18:52 [warn] 29#29: *49 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:19:13 [warn] 29#29: *49 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:20:00 [warn] 29#29: *49 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:21:24 [warn] 29#29: *49 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:26:23 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:27:06 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:27:33 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:27:52 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:27:54 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:28:03 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:28:16 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:28:21 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:28:38 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:28:42 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:31:00 [warn] 28#28: *68 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 14:31:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/14 14:31:11 [notice] 28#28: gracefully shutting down
+2023/10/14 14:31:11 [notice] 28#28: exiting
+2023/10/14 14:31:11 [notice] 41#41: gracefully shutting down
+2023/10/14 14:31:11 [notice] 41#41: exiting
+2023/10/14 14:31:11 [notice] 28#28: exit
+2023/10/14 14:31:11 [notice] 41#41: exit
+2023/10/14 14:31:11 [notice] 38#38: gracefully shutting down
+2023/10/14 14:31:11 [notice] 38#38: exiting
+2023/10/14 14:31:11 [notice] 38#38: exit
+2023/10/14 14:31:11 [notice] 34#34: gracefully shutting down
+2023/10/14 14:31:11 [notice] 34#34: exiting
+2023/10/14 14:31:11 [notice] 34#34: exit
+2023/10/14 14:31:11 [notice] 42#42: gracefully shutting down
+2023/10/14 14:31:11 [notice] 42#42: exiting
+2023/10/14 14:31:11 [notice] 42#42: exit
+2023/10/14 14:31:11 [notice] 37#37: gracefully shutting down
+2023/10/14 14:31:11 [notice] 37#37: exiting
+2023/10/14 14:31:11 [notice] 37#37: exit
+2023/10/14 14:31:11 [notice] 43#43: gracefully shutting down
+2023/10/14 14:31:11 [notice] 33#33: gracefully shutting down
+2023/10/14 14:31:11 [notice] 33#33: exiting
+2023/10/14 14:31:11 [notice] 33#33: exit
+2023/10/14 14:31:11 [notice] 31#31: gracefully shutting down
+2023/10/14 14:31:11 [notice] 31#31: exiting
+2023/10/14 14:31:11 [notice] 31#31: exit
+2023/10/14 14:31:11 [notice] 29#29: gracefully shutting down
+2023/10/14 14:31:11 [notice] 29#29: exiting
+2023/10/14 14:31:11 [notice] 29#29: exit
+2023/10/14 14:31:11 [notice] 43#43: exiting
+2023/10/14 14:31:11 [notice] 43#43: exit
+2023/10/14 14:31:11 [notice] 39#39: gracefully shutting down
+2023/10/14 14:31:11 [notice] 39#39: exiting
+2023/10/14 14:31:11 [notice] 32#32: gracefully shutting down
+2023/10/14 14:31:11 [notice] 39#39: exit
+2023/10/14 14:31:11 [notice] 32#32: exiting
+2023/10/14 14:31:11 [notice] 32#32: exit
+2023/10/14 14:31:11 [notice] 35#35: gracefully shutting down
+2023/10/14 14:31:11 [notice] 35#35: exiting
+2023/10/14 14:31:11 [notice] 35#35: exit
+2023/10/14 14:31:11 [notice] 36#36: gracefully shutting down
+2023/10/14 14:31:11 [notice] 40#40: gracefully shutting down
+2023/10/14 14:31:11 [notice] 36#36: exiting
+2023/10/14 14:31:11 [notice] 40#40: exiting
+2023/10/14 14:31:11 [notice] 36#36: exit
+2023/10/14 14:31:11 [notice] 40#40: exit
+2023/10/14 14:31:11 [notice] 30#30: gracefully shutting down
+2023/10/14 14:31:11 [notice] 30#30: exiting
+2023/10/14 14:31:11 [notice] 30#30: exit
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/10/14 14:31:11 [notice] 1#1: worker process 36 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/10/14 14:31:11 [notice] 1#1: worker process 41 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/10/14 14:31:11 [notice] 1#1: worker process 40 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/10/14 14:31:11 [notice] 1#1: worker process 28 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/10/14 14:31:11 [notice] 1#1: worker process 30 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: worker process 31 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: worker process 33 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: worker process 38 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: worker process 42 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: worker process 43 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/10/14 14:31:11 [notice] 1#1: worker process 29 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/10/14 14:31:11 [notice] 1#1: worker process 32 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/10/14 14:31:11 [notice] 1#1: worker process 39 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/10/14 14:31:11 [notice] 1#1: worker process 35 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/10/14 14:31:11 [notice] 1#1: worker process 37 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/10/14 14:31:11 [notice] 1#1: worker process 34 exited with code 0
+2023/10/14 14:31:11 [notice] 1#1: exit
+2023/10/14 16:24:20 [notice] 1#1: using the "epoll" event method
+2023/10/14 16:24:20 [notice] 1#1: nginx/1.25.0
+2023/10/14 16:24:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/14 16:24:20 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/14 16:24:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/14 16:24:20 [notice] 1#1: start worker processes
+2023/10/14 16:24:20 [notice] 1#1: start worker process 28
+2023/10/14 16:24:20 [notice] 1#1: start worker process 29
+2023/10/14 16:24:20 [notice] 1#1: start worker process 30
+2023/10/14 16:24:20 [notice] 1#1: start worker process 31
+2023/10/14 16:24:20 [notice] 1#1: start worker process 32
+2023/10/14 16:24:20 [notice] 1#1: start worker process 33
+2023/10/14 16:24:20 [notice] 1#1: start worker process 34
+2023/10/14 16:24:20 [notice] 1#1: start worker process 35
+2023/10/14 16:24:20 [notice] 1#1: start worker process 36
+2023/10/14 16:24:20 [notice] 1#1: start worker process 37
+2023/10/14 16:24:20 [notice] 1#1: start worker process 38
+2023/10/14 16:24:20 [notice] 1#1: start worker process 39
+2023/10/14 16:24:20 [notice] 1#1: start worker process 40
+2023/10/14 16:24:20 [notice] 1#1: start worker process 41
+2023/10/14 16:24:20 [notice] 1#1: start worker process 42
+2023/10/14 16:24:20 [notice] 1#1: start worker process 43
+2023/10/14 16:25:39 [warn] 30#30: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:25:50 [warn] 30#30: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:27:41 [warn] 29#29: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:28:13 [warn] 29#29: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:32:51 [warn] 34#34: *10 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:32:59 [warn] 34#34: *10 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:56:44 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:57:00 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:57:13 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:57:19 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:57:27 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:57:41 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:57:53 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:57:58 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:58:16 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:59:18 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:59:42 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 16:59:52 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:00:17 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:00:36 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:02:05 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:02:27 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:02:37 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:03:14 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:03:47 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:04:35 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:04:57 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:05:21 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:05:30 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:05:54 [warn] 37#37: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:07:54 [warn] 40#40: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:08:54 [error] 40#40: *42 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:8083"
+2023/10/14 17:09:35 [warn] 40#40: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:11:15 [warn] 40#40: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000033, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:12:15 [error] 40#40: *42 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:8083"
+2023/10/14 17:12:21 [warn] 40#40: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000034, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:13:21 [error] 40#40: *42 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:8083"
+2023/10/14 17:14:35 [error] 40#40: *42 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:8083"
+2023/10/14 17:15:35 [error] 42#42: *51 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.192.1, server: localhost, request: "GET /send.php HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:8083"
+2023/10/14 17:23:07 [warn] 28#28: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000035, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:23:29 [warn] 28#28: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000036, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:30:28 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000037, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:30:40 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000038, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:30:48 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000039, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:31:09 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000040, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:31:30 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000041, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:32:29 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000042, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:33:51 [warn] 28#28: *70 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000043, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:33:52 [warn] 28#28: *70 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000044, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:34:36 [warn] 28#28: *70 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000045, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:35:00 [warn] 28#28: *70 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000046, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:35:09 [warn] 28#28: *70 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000047, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:35:23 [warn] 28#28: *70 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000048, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:36:17 [warn] 28#28: *70 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000049, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:38:37 [warn] 28#28: *79 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000050, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:38:59 [warn] 28#28: *79 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000051, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:39:04 [warn] 28#28: *79 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000052, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:39:10 [warn] 28#28: *79 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000053, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:42:33 [warn] 28#28: *85 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000054, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:42:45 [warn] 28#28: *85 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000055, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:43:05 [warn] 28#28: *85 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000056, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:43:20 [warn] 28#28: *85 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000057, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:46:21 [warn] 30#30: *91 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000058, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:47:21 [error] 30#30: *91 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:8083"
+2023/10/14 17:48:08 [warn] 30#30: *91 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000059, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:49:08 [error] 30#30: *91 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 192.168.192.1, server: localhost, request: "POST /send.php HTTP/1.1", upstream: "fastcgi://192.168.192.2:9000", host: "localhost:8083"
+2023/10/14 17:52:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/14 17:52:31 [notice] 29#29: gracefully shutting down
+2023/10/14 17:52:31 [notice] 31#31: gracefully shutting down
+2023/10/14 17:52:31 [notice] 32#32: gracefully shutting down
+2023/10/14 17:52:31 [notice] 28#28: gracefully shutting down
+2023/10/14 17:52:31 [notice] 33#33: gracefully shutting down
+2023/10/14 17:52:31 [notice] 29#29: exiting
+2023/10/14 17:52:31 [notice] 34#34: gracefully shutting down
+2023/10/14 17:52:31 [notice] 31#31: exiting
+2023/10/14 17:52:31 [notice] 30#30: gracefully shutting down
+2023/10/14 17:52:31 [notice] 32#32: exiting
+2023/10/14 17:52:31 [notice] 35#35: gracefully shutting down
+2023/10/14 17:52:31 [notice] 37#37: gracefully shutting down
+2023/10/14 17:52:31 [notice] 36#36: gracefully shutting down
+2023/10/14 17:52:31 [notice] 39#39: gracefully shutting down
+2023/10/14 17:52:31 [notice] 40#40: gracefully shutting down
+2023/10/14 17:52:31 [notice] 28#28: exiting
+2023/10/14 17:52:31 [notice] 41#41: gracefully shutting down
+2023/10/14 17:52:31 [notice] 33#33: exiting
+2023/10/14 17:52:31 [notice] 42#42: gracefully shutting down
+2023/10/14 17:52:31 [notice] 34#34: exiting
+2023/10/14 17:52:31 [notice] 38#38: gracefully shutting down
+2023/10/14 17:52:31 [notice] 30#30: exiting
+2023/10/14 17:52:31 [notice] 29#29: exit
+2023/10/14 17:52:31 [notice] 35#35: exiting
+2023/10/14 17:52:31 [notice] 37#37: exiting
+2023/10/14 17:52:31 [notice] 36#36: exiting
+2023/10/14 17:52:31 [notice] 39#39: exiting
+2023/10/14 17:52:31 [notice] 31#31: exit
+2023/10/14 17:52:31 [notice] 40#40: exiting
+2023/10/14 17:52:31 [notice] 32#32: exit
+2023/10/14 17:52:31 [notice] 28#28: exit
+2023/10/14 17:52:31 [notice] 41#41: exiting
+2023/10/14 17:52:31 [notice] 42#42: exiting
+2023/10/14 17:52:31 [notice] 38#38: exiting
+2023/10/14 17:52:31 [notice] 34#34: exit
+2023/10/14 17:52:31 [notice] 37#37: exit
+2023/10/14 17:52:31 [notice] 35#35: exit
+2023/10/14 17:52:31 [notice] 40#40: exit
+2023/10/14 17:52:31 [notice] 39#39: exit
+2023/10/14 17:52:31 [notice] 33#33: exit
+2023/10/14 17:52:31 [notice] 41#41: exit
+2023/10/14 17:52:31 [notice] 36#36: exit
+2023/10/14 17:52:31 [notice] 30#30: exit
+2023/10/14 17:52:31 [notice] 42#42: exit
+2023/10/14 17:52:31 [notice] 38#38: exit
+2023/10/14 17:52:31 [notice] 43#43: gracefully shutting down
+2023/10/14 17:52:31 [notice] 43#43: exiting
+2023/10/14 17:52:31 [notice] 43#43: exit
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/10/14 17:52:31 [notice] 1#1: worker process 34 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: worker process 35 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/10/14 17:52:31 [notice] 1#1: worker process 30 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/10/14 17:52:31 [notice] 1#1: worker process 38 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/10/14 17:52:31 [notice] 1#1: worker process 36 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/10/14 17:52:31 [notice] 1#1: worker process 37 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/10/14 17:52:31 [notice] 1#1: worker process 33 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/10/14 17:52:31 [notice] 1#1: worker process 39 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/10/14 17:52:31 [notice] 1#1: worker process 40 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/10/14 17:52:31 [notice] 1#1: worker process 31 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/10/14 17:52:31 [notice] 1#1: worker process 42 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/10/14 17:52:31 [notice] 1#1: worker process 32 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: worker process 43 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/10/14 17:52:31 [notice] 1#1: worker process 29 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: worker process 41 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 17:52:31 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/10/14 17:52:31 [notice] 1#1: worker process 28 exited with code 0
+2023/10/14 17:52:31 [notice] 1#1: exit
+2023/10/14 17:52:38 [notice] 1#1: using the "epoll" event method
+2023/10/14 17:52:38 [notice] 1#1: nginx/1.25.0
+2023/10/14 17:52:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/14 17:52:38 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/14 17:52:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/14 17:52:38 [notice] 1#1: start worker processes
+2023/10/14 17:52:38 [notice] 1#1: start worker process 28
+2023/10/14 17:52:38 [notice] 1#1: start worker process 29
+2023/10/14 17:52:38 [notice] 1#1: start worker process 30
+2023/10/14 17:52:38 [notice] 1#1: start worker process 31
+2023/10/14 17:52:38 [notice] 1#1: start worker process 32
+2023/10/14 17:52:38 [notice] 1#1: start worker process 33
+2023/10/14 17:52:38 [notice] 1#1: start worker process 34
+2023/10/14 17:52:38 [notice] 1#1: start worker process 35
+2023/10/14 17:52:38 [notice] 1#1: start worker process 36
+2023/10/14 17:52:38 [notice] 1#1: start worker process 37
+2023/10/14 17:52:38 [notice] 1#1: start worker process 38
+2023/10/14 17:52:38 [notice] 1#1: start worker process 39
+2023/10/14 17:52:38 [notice] 1#1: start worker process 40
+2023/10/14 17:52:38 [notice] 1#1: start worker process 41
+2023/10/14 17:52:38 [notice] 1#1: start worker process 42
+2023/10/14 17:52:38 [notice] 1#1: start worker process 43
+2023/10/14 17:52:38 [notice] 1#1: using the "epoll" event method
+2023/10/14 17:52:38 [notice] 1#1: nginx/1.25.0
+2023/10/14 17:52:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/14 17:52:38 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/14 17:52:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/14 17:52:38 [notice] 1#1: start worker processes
+2023/10/14 17:52:38 [notice] 1#1: start worker process 28
+2023/10/14 17:52:38 [notice] 1#1: start worker process 29
+2023/10/14 17:52:38 [notice] 1#1: start worker process 30
+2023/10/14 17:52:38 [notice] 1#1: start worker process 31
+2023/10/14 17:52:38 [notice] 1#1: start worker process 32
+2023/10/14 17:52:38 [notice] 1#1: start worker process 33
+2023/10/14 17:52:38 [notice] 1#1: start worker process 34
+2023/10/14 17:52:38 [notice] 1#1: start worker process 35
+2023/10/14 17:52:38 [notice] 1#1: start worker process 36
+2023/10/14 17:52:38 [notice] 1#1: start worker process 37
+2023/10/14 17:52:38 [notice] 1#1: start worker process 38
+2023/10/14 17:52:38 [notice] 1#1: start worker process 39
+2023/10/14 17:52:38 [notice] 1#1: start worker process 40
+2023/10/14 17:52:38 [notice] 1#1: start worker process 41
+2023/10/14 17:52:38 [notice] 1#1: start worker process 42
+2023/10/14 17:52:38 [notice] 1#1: start worker process 43
+2023/10/14 17:53:29 [warn] 28#28: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:53:29 [warn] 29#29: *3 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "172.19.0.3"
+2023/10/14 17:53:49 [warn] 28#28: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:53:49 [warn] 30#30: *5 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:55:35 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:55:35 [warn] 31#31: *7 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:55:36 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:55:36 [warn] 33#33: *9 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:55:52 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:55:52 [warn] 34#34: *11 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:55:54 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:55:54 [warn] 32#32: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:56:06 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:56:06 [warn] 35#35: *15 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:56:45 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:56:45 [warn] 36#36: *17 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:57:23 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:57:23 [warn] 37#37: *19 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:57:37 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:57:37 [warn] 38#38: *21 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:57:52 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:57:52 [warn] 39#39: *23 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:58:12 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:58:12 [warn] 40#40: *25 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:58:32 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:58:32 [warn] 41#41: *27 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:58:42 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:58:42 [warn] 42#42: *29 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:59:46 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:59:46 [warn] 43#43: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:59:57 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:59:57 [warn] 28#28: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 17:59:58 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 17:59:58 [warn] 28#28: *35 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:00:14 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:00:14 [warn] 28#28: *37 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:00:32 [warn] 30#30: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:00:32 [warn] 28#28: *39 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:01:56 [warn] 32#32: *25 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:01:56 [warn] 28#28: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:02:10 [warn] 32#32: *25 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:02:10 [warn] 28#28: *43 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:02:14 [warn] 32#32: *25 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:02:14 [warn] 28#28: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:03:26 [warn] 34#34: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:03:26 [warn] 28#28: *47 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:03:42 [warn] 34#34: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:03:42 [warn] 28#28: *49 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:04:02 [warn] 34#34: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:04:02 [warn] 28#28: *51 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:05:12 [warn] 36#36: *35 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:05:12 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:05:14 [warn] 36#36: *35 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:05:14 [warn] 28#28: *58 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:05:36 [warn] 36#36: *35 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:05:36 [warn] 28#28: *61 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:05:38 [warn] 36#36: *35 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:05:38 [warn] 28#28: *63 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:06:00 [warn] 36#36: *35 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.19.0.1, server: localhost, request: "POST /send.php?TEST=1 HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:06:00 [warn] 28#28: *65 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:07:07 [warn] 38#38: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:07:11 [warn] 38#38: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:07:28 [warn] 38#38: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000033, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:07:29 [warn] 38#38: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000034, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:09:34 [warn] 40#40: *48 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000035, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:10:28 [warn] 40#40: *48 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000036, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:10:29 [warn] 40#40: *48 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000037, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:11:13 [warn] 40#40: *48 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000038, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:12:00 [warn] 40#40: *48 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000039, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:12:00 [warn] 29#29: *83 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 172.19.0.2, server: localhost, request: "POST /recieve.php?TEST=1 HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:12:18 [warn] 40#40: *48 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000040, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:14:53 [warn] 43#43: *60 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000041, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:26:01 [error] 28#28: *89 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8083", referrer: "http://localhost:8083/send.php"
+2023/10/14 18:28:45 [error] 28#28: *112 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8083", referrer: "http://localhost:8083/send.php"
+2023/10/14 18:29:54 [warn] 28#28: *116 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000042, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:29:54 [warn] 29#29: *90 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:30:15 [warn] 28#28: *116 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000043, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:30:15 [warn] 29#29: *92 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000033, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:30:33 [warn] 28#28: *116 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000044, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:30:33 [warn] 29#29: *94 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000034, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:30:40 [error] 28#28: *120 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8083", referrer: "http://localhost:8083/send.php"
+2023/10/14 18:35:58 [warn] 28#28: *128 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000045, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:35:58 [warn] 29#29: *96 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000035, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:37:20 [warn] 29#29: *131 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000046, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:37:20 [warn] 29#29: *98 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000036, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:37:21 [warn] 29#29: *131 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000047, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:37:21 [warn] 30#30: *100 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000037, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:45:10 [warn] 30#30: *115 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000038, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:45:32 [warn] 30#30: *117 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000039, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:45:38 [warn] 30#30: *119 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000040, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:45:50 [warn] 30#30: *121 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000041, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:46:00 [warn] 29#29: *135 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000048, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:46:00 [warn] 30#30: *123 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000042, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:46:23 [warn] 29#29: *135 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000049, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:46:23 [warn] 30#30: *125 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000043, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:46:24 [warn] 29#29: *135 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000050, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:46:24 [warn] 30#30: *127 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000044, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:48:14 [warn] 29#29: *146 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000051, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:48:14 [warn] 30#30: *129 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000045, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:48:15 [warn] 29#29: *146 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000052, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:48:15 [warn] 30#30: *131 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000046, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 18:48:26 [warn] 29#29: *146 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000053, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/14 18:48:26 [warn] 30#30: *133 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000047, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/14 19:00:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/14 19:00:47 [notice] 30#30: gracefully shutting down
+2023/10/14 19:00:47 [notice] 30#30: exiting
+2023/10/14 19:00:47 [notice] 30#30: exit
+2023/10/14 19:00:47 [notice] 36#36: gracefully shutting down
+2023/10/14 19:00:47 [notice] 36#36: exiting
+2023/10/14 19:00:47 [notice] 35#35: gracefully shutting down
+2023/10/14 19:00:47 [notice] 36#36: exit
+2023/10/14 19:00:47 [notice] 35#35: exiting
+2023/10/14 19:00:47 [notice] 35#35: exit
+2023/10/14 19:00:47 [notice] 39#39: gracefully shutting down
+2023/10/14 19:00:47 [notice] 39#39: exiting
+2023/10/14 19:00:47 [notice] 28#28: gracefully shutting down
+2023/10/14 19:00:47 [notice] 28#28: exiting
+2023/10/14 19:00:47 [notice] 39#39: exit
+2023/10/14 19:00:47 [notice] 28#28: exit
+2023/10/14 19:00:47 [notice] 32#32: gracefully shutting down
+2023/10/14 19:00:47 [notice] 32#32: exiting
+2023/10/14 19:00:47 [notice] 32#32: exit
+2023/10/14 19:00:47 [notice] 41#41: gracefully shutting down
+2023/10/14 19:00:47 [notice] 42#42: gracefully shutting down
+2023/10/14 19:00:47 [notice] 41#41: exiting
+2023/10/14 19:00:47 [notice] 42#42: exiting
+2023/10/14 19:00:47 [notice] 41#41: exit
+2023/10/14 19:00:47 [notice] 42#42: exit
+2023/10/14 19:00:47 [notice] 34#34: gracefully shutting down
+2023/10/14 19:00:47 [notice] 34#34: exiting
+2023/10/14 19:00:47 [notice] 34#34: exit
+2023/10/14 19:00:47 [notice] 38#38: gracefully shutting down
+2023/10/14 19:00:47 [notice] 40#40: gracefully shutting down
+2023/10/14 19:00:47 [notice] 37#37: gracefully shutting down
+2023/10/14 19:00:47 [notice] 38#38: exiting
+2023/10/14 19:00:47 [notice] 31#31: gracefully shutting down
+2023/10/14 19:00:47 [notice] 40#40: exiting
+2023/10/14 19:00:47 [notice] 37#37: exiting
+2023/10/14 19:00:47 [notice] 31#31: exiting
+2023/10/14 19:00:47 [notice] 40#40: exit
+2023/10/14 19:00:47 [notice] 38#38: exit
+2023/10/14 19:00:47 [notice] 37#37: exit
+2023/10/14 19:00:47 [notice] 31#31: exit
+2023/10/14 19:00:47 [notice] 29#29: gracefully shutting down
+2023/10/14 19:00:47 [notice] 29#29: exiting
+2023/10/14 19:00:47 [notice] 29#29: exit
+2023/10/14 19:00:47 [notice] 33#33: gracefully shutting down
+2023/10/14 19:00:47 [notice] 33#33: exiting
+2023/10/14 19:00:47 [notice] 33#33: exit
+2023/10/14 19:00:47 [notice] 43#43: gracefully shutting down
+2023/10/14 19:00:47 [notice] 43#43: exiting
+2023/10/14 19:00:47 [notice] 43#43: exit
+2023/10/14 19:00:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/14 19:00:47 [notice] 32#32: gracefully shutting down
+2023/10/14 19:00:47 [notice] 32#32: exiting
+2023/10/14 19:00:47 [notice] 32#32: exit
+2023/10/14 19:00:47 [notice] 29#29: gracefully shutting down
+2023/10/14 19:00:47 [notice] 29#29: exiting
+2023/10/14 19:00:47 [notice] 29#29: exit
+2023/10/14 19:00:47 [notice] 28#28: gracefully shutting down
+2023/10/14 19:00:47 [notice] 28#28: exiting
+2023/10/14 19:00:47 [notice] 28#28: exit
+2023/10/14 19:00:47 [notice] 31#31: gracefully shutting down
+2023/10/14 19:00:47 [notice] 31#31: exiting
+2023/10/14 19:00:47 [notice] 31#31: exit
+2023/10/14 19:00:47 [notice] 30#30: gracefully shutting down
+2023/10/14 19:00:47 [notice] 30#30: exiting
+2023/10/14 19:00:47 [notice] 30#30: exit
+2023/10/14 19:00:47 [notice] 33#33: gracefully shutting down
+2023/10/14 19:00:47 [notice] 33#33: exiting
+2023/10/14 19:00:47 [notice] 33#33: exit
+2023/10/14 19:00:47 [notice] 35#35: gracefully shutting down
+2023/10/14 19:00:47 [notice] 43#43: gracefully shutting down
+2023/10/14 19:00:47 [notice] 35#35: exiting
+2023/10/14 19:00:47 [notice] 43#43: exiting
+2023/10/14 19:00:47 [notice] 35#35: exit
+2023/10/14 19:00:47 [notice] 43#43: exit
+2023/10/14 19:00:47 [notice] 34#34: gracefully shutting down
+2023/10/14 19:00:47 [notice] 34#34: exiting
+2023/10/14 19:00:47 [notice] 34#34: exit
+2023/10/14 19:00:47 [notice] 37#37: gracefully shutting down
+2023/10/14 19:00:47 [notice] 37#37: exiting
+2023/10/14 19:00:47 [notice] 38#38: gracefully shutting down
+2023/10/14 19:00:47 [notice] 42#42: gracefully shutting down
+2023/10/14 19:00:47 [notice] 38#38: exiting
+2023/10/14 19:00:47 [notice] 42#42: exiting
+2023/10/14 19:00:47 [notice] 37#37: exit
+2023/10/14 19:00:47 [notice] 41#41: gracefully shutting down
+2023/10/14 19:00:47 [notice] 38#38: exit
+2023/10/14 19:00:47 [notice] 42#42: exit
+2023/10/14 19:00:47 [notice] 41#41: exiting
+2023/10/14 19:00:47 [notice] 41#41: exit
+2023/10/14 19:00:47 [notice] 39#39: gracefully shutting down
+2023/10/14 19:00:47 [notice] 39#39: exiting
+2023/10/14 19:00:47 [notice] 39#39: exit
+2023/10/14 19:00:47 [notice] 40#40: gracefully shutting down
+2023/10/14 19:00:47 [notice] 40#40: exiting
+2023/10/14 19:00:47 [notice] 40#40: exit
+2023/10/14 19:00:47 [notice] 36#36: gracefully shutting down
+2023/10/14 19:00:47 [notice] 36#36: exiting
+2023/10/14 19:00:47 [notice] 36#36: exit
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/10/14 19:00:47 [notice] 1#1: worker process 30 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 39 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/10/14 19:00:47 [notice] 1#1: worker process 36 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 42 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 34 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/10/14 19:00:47 [notice] 1#1: worker process 31 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/10/14 19:00:47 [notice] 1#1: worker process 43 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 37 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/10/14 19:00:47 [notice] 1#1: worker process 35 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/10/14 19:00:47 [notice] 1#1: worker process 28 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/10/14 19:00:47 [notice] 1#1: worker process 33 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/10/14 19:00:47 [notice] 1#1: worker process 32 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/10/14 19:00:47 [notice] 1#1: worker process 41 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 29 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 35 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: worker process 38 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 39 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 40 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 41 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/10/14 19:00:47 [notice] 1#1: worker process 37 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 43 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/10/14 19:00:47 [notice] 1#1: worker process 28 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 30 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 31 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 32 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 33 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 34 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/10/14 19:00:47 [notice] 1#1: worker process 38 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: worker process 40 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/10/14 19:00:47 [notice] 1#1: worker process 29 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: exit
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/10/14 19:00:47 [notice] 1#1: worker process 36 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/10/14 19:00:47 [notice] 1#1: worker process 42 exited with code 0
+2023/10/14 19:00:47 [notice] 1#1: exit
+2023/10/15 07:12:11 [notice] 1#1: using the "epoll" event method
+2023/10/15 07:12:11 [notice] 1#1: using the "epoll" event method
+2023/10/15 07:12:11 [notice] 1#1: nginx/1.25.0
+2023/10/15 07:12:11 [notice] 1#1: nginx/1.25.0
+2023/10/15 07:12:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/15 07:12:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/15 07:12:11 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/15 07:12:11 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/15 07:12:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/15 07:12:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/15 07:12:11 [notice] 1#1: start worker processes
+2023/10/15 07:12:11 [notice] 1#1: start worker processes
+2023/10/15 07:12:11 [notice] 1#1: start worker process 28
+2023/10/15 07:12:11 [notice] 1#1: start worker process 28
+2023/10/15 07:12:11 [notice] 1#1: start worker process 29
+2023/10/15 07:12:11 [notice] 1#1: start worker process 29
+2023/10/15 07:12:11 [notice] 1#1: start worker process 30
+2023/10/15 07:12:11 [notice] 1#1: start worker process 30
+2023/10/15 07:12:11 [notice] 1#1: start worker process 31
+2023/10/15 07:12:11 [notice] 1#1: start worker process 31
+2023/10/15 07:12:11 [notice] 1#1: start worker process 32
+2023/10/15 07:12:11 [notice] 1#1: start worker process 32
+2023/10/15 07:12:11 [notice] 1#1: start worker process 33
+2023/10/15 07:12:11 [notice] 1#1: start worker process 33
+2023/10/15 07:12:11 [notice] 1#1: start worker process 34
+2023/10/15 07:12:11 [notice] 1#1: start worker process 34
+2023/10/15 07:12:11 [notice] 1#1: start worker process 35
+2023/10/15 07:12:11 [notice] 1#1: start worker process 35
+2023/10/15 07:12:11 [notice] 1#1: start worker process 36
+2023/10/15 07:12:11 [notice] 1#1: start worker process 36
+2023/10/15 07:12:11 [notice] 1#1: start worker process 37
+2023/10/15 07:12:11 [notice] 1#1: start worker process 37
+2023/10/15 07:12:11 [notice] 1#1: start worker process 38
+2023/10/15 07:12:11 [notice] 1#1: start worker process 38
+2023/10/15 07:12:11 [notice] 1#1: start worker process 39
+2023/10/15 07:12:11 [notice] 1#1: start worker process 39
+2023/10/15 07:12:11 [notice] 1#1: start worker process 40
+2023/10/15 07:12:11 [notice] 1#1: start worker process 40
+2023/10/15 07:12:11 [notice] 1#1: start worker process 41
+2023/10/15 07:12:11 [notice] 1#1: start worker process 41
+2023/10/15 07:12:11 [notice] 1#1: start worker process 42
+2023/10/15 07:12:11 [notice] 1#1: start worker process 42
+2023/10/15 07:12:11 [notice] 1#1: start worker process 43
+2023/10/15 07:12:11 [notice] 1#1: start worker process 43
+2023/10/15 07:23:15 [error] 31#31: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8083", referrer: "http://localhost:8083/send.php"
+2023/10/15 07:37:18 [warn] 38#38: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:37:18 [warn] 29#29: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:38:20 [warn] 38#38: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:38:20 [warn] 30#30: *4 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:39:01 [warn] 38#38: *42 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:39:02 [warn] 31#31: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:40:53 [warn] 40#40: *47 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:40:53 [warn] 32#32: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:41:09 [warn] 40#40: *47 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:41:09 [warn] 33#33: *10 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:41:18 [warn] 40#40: *47 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:41:18 [warn] 34#34: *12 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:41:28 [warn] 40#40: *47 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:41:28 [warn] 35#35: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:43:19 [warn] 42#42: *53 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:43:19 [warn] 36#36: *16 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:43:29 [warn] 42#42: *53 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:43:29 [warn] 37#37: *18 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:43:30 [warn] 42#42: *53 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:43:30 [warn] 38#38: *20 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:43:38 [warn] 42#42: *53 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:43:38 [warn] 39#39: *22 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:43:50 [warn] 42#42: *53 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:43:50 [warn] 40#40: *24 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:44:21 [warn] 42#42: *53 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:44:21 [warn] 41#41: *26 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:45:24 [warn] 42#42: *53 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:45:24 [warn] 42#42: *28 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:46:50 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:46:50 [warn] 43#43: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:47:06 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:47:06 [warn] 28#28: *32 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:47:12 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:47:12 [warn] 28#28: *34 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:47:13 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:47:13 [warn] 28#28: *36 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:47:40 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:47:40 [warn] 28#28: *38 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:47:46 [warn] 28#28: *62 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 07:47:46 [warn] 28#28: *40 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.19.0.2, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 07:56:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/15 07:56:15 [notice] 28#28: gracefully shutting down
+2023/10/15 07:56:15 [notice] 29#29: gracefully shutting down
+2023/10/15 07:56:15 [notice] 28#28: exiting
+2023/10/15 07:56:15 [notice] 30#30: gracefully shutting down
+2023/10/15 07:56:15 [notice] 34#34: gracefully shutting down
+2023/10/15 07:56:15 [notice] 29#29: exiting
+2023/10/15 07:56:15 [notice] 33#33: gracefully shutting down
+2023/10/15 07:56:15 [notice] 32#32: gracefully shutting down
+2023/10/15 07:56:15 [notice] 31#31: gracefully shutting down
+2023/10/15 07:56:15 [notice] 30#30: exiting
+2023/10/15 07:56:15 [notice] 37#37: gracefully shutting down
+2023/10/15 07:56:15 [notice] 36#36: gracefully shutting down
+2023/10/15 07:56:15 [notice] 34#34: exiting
+2023/10/15 07:56:15 [notice] 33#33: exiting
+2023/10/15 07:56:15 [notice] 38#38: gracefully shutting down
+2023/10/15 07:56:15 [notice] 36#36: exiting
+2023/10/15 07:56:15 [notice] 28#28: exit
+2023/10/15 07:56:15 [notice] 32#32: exiting
+2023/10/15 07:56:15 [notice] 39#39: gracefully shutting down
+2023/10/15 07:56:15 [notice] 41#41: gracefully shutting down
+2023/10/15 07:56:15 [notice] 29#29: exit
+2023/10/15 07:56:15 [notice] 31#31: exiting
+2023/10/15 07:56:15 [notice] 37#37: exiting
+2023/10/15 07:56:15 [notice] 30#30: exit
+2023/10/15 07:56:15 [notice] 38#38: exiting
+2023/10/15 07:56:15 [notice] 34#34: exit
+2023/10/15 07:56:15 [notice] 39#39: exiting
+2023/10/15 07:56:15 [notice] 33#33: exit
+2023/10/15 07:56:15 [notice] 41#41: exiting
+2023/10/15 07:56:15 [notice] 36#36: exit
+2023/10/15 07:56:15 [notice] 32#32: exit
+2023/10/15 07:56:15 [notice] 37#37: exit
+2023/10/15 07:56:15 [notice] 39#39: exit
+2023/10/15 07:56:15 [notice] 31#31: exit
+2023/10/15 07:56:15 [notice] 38#38: exit
+2023/10/15 07:56:15 [notice] 41#41: exit
+2023/10/15 07:56:15 [notice] 35#35: gracefully shutting down
+2023/10/15 07:56:15 [notice] 40#40: gracefully shutting down
+2023/10/15 07:56:15 [notice] 42#42: gracefully shutting down
+2023/10/15 07:56:15 [notice] 35#35: exiting
+2023/10/15 07:56:15 [notice] 40#40: exiting
+2023/10/15 07:56:15 [notice] 42#42: exiting
+2023/10/15 07:56:15 [notice] 43#43: gracefully shutting down
+2023/10/15 07:56:15 [notice] 35#35: exit
+2023/10/15 07:56:15 [notice] 40#40: exit
+2023/10/15 07:56:15 [notice] 42#42: exit
+2023/10/15 07:56:15 [notice] 43#43: exiting
+2023/10/15 07:56:15 [notice] 43#43: exit
+2023/10/15 07:56:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/15 07:56:15 [notice] 29#29: gracefully shutting down
+2023/10/15 07:56:15 [notice] 31#31: gracefully shutting down
+2023/10/15 07:56:15 [notice] 28#28: gracefully shutting down
+2023/10/15 07:56:15 [notice] 32#32: gracefully shutting down
+2023/10/15 07:56:15 [notice] 34#34: gracefully shutting down
+2023/10/15 07:56:15 [notice] 30#30: gracefully shutting down
+2023/10/15 07:56:15 [notice] 29#29: exiting
+2023/10/15 07:56:15 [notice] 31#31: exiting
+2023/10/15 07:56:15 [notice] 33#33: gracefully shutting down
+2023/10/15 07:56:15 [notice] 28#28: exiting
+2023/10/15 07:56:15 [notice] 32#32: exiting
+2023/10/15 07:56:15 [notice] 37#37: gracefully shutting down
+2023/10/15 07:56:15 [notice] 34#34: exiting
+2023/10/15 07:56:15 [notice] 35#35: gracefully shutting down
+2023/10/15 07:56:15 [notice] 36#36: gracefully shutting down
+2023/10/15 07:56:15 [notice] 38#38: gracefully shutting down
+2023/10/15 07:56:15 [notice] 30#30: exiting
+2023/10/15 07:56:15 [notice] 42#42: gracefully shutting down
+2023/10/15 07:56:15 [notice] 39#39: gracefully shutting down
+2023/10/15 07:56:15 [notice] 33#33: exiting
+2023/10/15 07:56:15 [notice] 31#31: exit
+2023/10/15 07:56:15 [notice] 29#29: exit
+2023/10/15 07:56:15 [notice] 37#37: exiting
+2023/10/15 07:56:15 [notice] 41#41: gracefully shutting down
+2023/10/15 07:56:15 [notice] 32#32: exit
+2023/10/15 07:56:15 [notice] 35#35: exiting
+2023/10/15 07:56:15 [notice] 36#36: exiting
+2023/10/15 07:56:15 [notice] 34#34: exit
+2023/10/15 07:56:15 [notice] 38#38: exiting
+2023/10/15 07:56:15 [notice] 28#28: exit
+2023/10/15 07:56:15 [notice] 42#42: exiting
+2023/10/15 07:56:15 [notice] 39#39: exiting
+2023/10/15 07:56:15 [notice] 41#41: exiting
+2023/10/15 07:56:15 [notice] 30#30: exit
+2023/10/15 07:56:15 [notice] 38#38: exit
+2023/10/15 07:56:15 [notice] 36#36: exit
+2023/10/15 07:56:15 [notice] 35#35: exit
+2023/10/15 07:56:15 [notice] 42#42: exit
+2023/10/15 07:56:15 [notice] 37#37: exit
+2023/10/15 07:56:15 [notice] 33#33: exit
+2023/10/15 07:56:15 [notice] 39#39: exit
+2023/10/15 07:56:15 [notice] 41#41: exit
+2023/10/15 07:56:15 [notice] 43#43: gracefully shutting down
+2023/10/15 07:56:15 [notice] 40#40: gracefully shutting down
+2023/10/15 07:56:15 [notice] 43#43: exiting
+2023/10/15 07:56:15 [notice] 40#40: exiting
+2023/10/15 07:56:15 [notice] 43#43: exit
+2023/10/15 07:56:15 [notice] 40#40: exit
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/10/15 07:56:15 [notice] 1#1: worker process 38 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 29 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 36 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 40 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/10/15 07:56:15 [notice] 1#1: worker process 41 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/10/15 07:56:15 [notice] 1#1: worker process 32 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/10/15 07:56:15 [notice] 1#1: worker process 37 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/10/15 07:56:15 [notice] 1#1: worker process 33 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 37 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/10/15 07:56:15 [notice] 1#1: worker process 30 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/10/15 07:56:15 [notice] 1#1: worker process 41 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/10/15 07:56:15 [notice] 1#1: worker process 38 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 29 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 35 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/10/15 07:56:15 [notice] 1#1: worker process 28 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/10/15 07:56:15 [notice] 1#1: worker process 33 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/10/15 07:56:15 [notice] 1#1: worker process 39 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 43 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/10/15 07:56:15 [notice] 1#1: worker process 34 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 31 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 36 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/10/15 07:56:15 [notice] 1#1: worker process 31 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 30 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 43 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 35 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/10/15 07:56:15 [notice] 1#1: worker process 32 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 34 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 40 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: worker process 42 exited with code 0
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:15 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/10/15 07:56:16 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/10/15 07:56:16 [notice] 1#1: worker process 28 exited with code 0
+2023/10/15 07:56:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 07:56:16 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/10/15 07:56:16 [notice] 1#1: worker process 42 exited with code 0
+2023/10/15 07:56:16 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/10/15 07:56:16 [notice] 1#1: worker process 39 exited with code 0
+2023/10/15 07:56:16 [notice] 1#1: exit
+2023/10/15 07:56:16 [notice] 1#1: exit
+2023/10/15 07:56:20 [notice] 1#1: using the "epoll" event method
+2023/10/15 07:56:20 [notice] 1#1: nginx/1.25.0
+2023/10/15 07:56:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/15 07:56:20 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/15 07:56:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/15 07:56:20 [notice] 1#1: start worker processes
+2023/10/15 07:56:20 [notice] 1#1: start worker process 28
+2023/10/15 07:56:20 [notice] 1#1: start worker process 29
+2023/10/15 07:56:20 [notice] 1#1: start worker process 30
+2023/10/15 07:56:20 [notice] 1#1: start worker process 31
+2023/10/15 07:56:20 [notice] 1#1: start worker process 32
+2023/10/15 07:56:20 [notice] 1#1: start worker process 33
+2023/10/15 07:56:20 [notice] 1#1: start worker process 34
+2023/10/15 07:56:20 [notice] 1#1: start worker process 35
+2023/10/15 07:56:20 [notice] 1#1: start worker process 36
+2023/10/15 07:56:20 [notice] 1#1: start worker process 37
+2023/10/15 07:56:20 [notice] 1#1: start worker process 38
+2023/10/15 07:56:20 [notice] 1#1: start worker process 39
+2023/10/15 07:56:20 [notice] 1#1: start worker process 40
+2023/10/15 07:56:20 [notice] 1#1: start worker process 41
+2023/10/15 07:56:20 [notice] 1#1: start worker process 42
+2023/10/15 07:56:20 [notice] 1#1: start worker process 43
+2023/10/15 07:56:20 [notice] 1#1: using the "epoll" event method
+2023/10/15 07:56:20 [notice] 1#1: nginx/1.25.0
+2023/10/15 07:56:20 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/15 07:56:20 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/15 07:56:20 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/15 07:56:20 [notice] 1#1: start worker processes
+2023/10/15 07:56:20 [notice] 1#1: start worker process 28
+2023/10/15 07:56:20 [notice] 1#1: start worker process 29
+2023/10/15 07:56:20 [notice] 1#1: start worker process 30
+2023/10/15 07:56:20 [notice] 1#1: start worker process 31
+2023/10/15 07:56:20 [notice] 1#1: start worker process 32
+2023/10/15 07:56:20 [notice] 1#1: start worker process 33
+2023/10/15 07:56:20 [notice] 1#1: start worker process 34
+2023/10/15 07:56:20 [notice] 1#1: start worker process 35
+2023/10/15 07:56:20 [notice] 1#1: start worker process 36
+2023/10/15 07:56:20 [notice] 1#1: start worker process 37
+2023/10/15 07:56:20 [notice] 1#1: start worker process 38
+2023/10/15 07:56:20 [notice] 1#1: start worker process 39
+2023/10/15 07:56:20 [notice] 1#1: start worker process 40
+2023/10/15 07:56:20 [notice] 1#1: start worker process 41
+2023/10/15 07:56:20 [notice] 1#1: start worker process 42
+2023/10/15 07:56:20 [notice] 1#1: start worker process 43
+2023/10/15 09:13:20 [warn] 29#29: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 09:13:20 [warn] 28#28: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.19.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 09:13:33 [warn] 29#29: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 09:13:33 [warn] 29#29: *3 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.19.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 09:15:18 [warn] 31#31: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 09:15:18 [warn] 30#30: *5 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.19.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 09:15:43 [warn] 31#31: *6 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 09:15:43 [warn] 32#32: *7 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.19.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 09:34:55 [warn] 34#34: *10 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 09:34:55 [warn] 33#33: *9 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.19.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 09:35:07 [warn] 34#34: *10 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 09:36:07 [error] 34#34: *10 upstream timed out (110: Connection timed out) while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", upstream: "fastcgi://172.19.0.3:9000", host: "localhost:8083"
+2023/10/15 09:37:19 [warn] 32#32: *14 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.19.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 09:37:19 [warn] 31#31: *11 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.19.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 09:37:19 [warn] 34#34: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.19.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 09:38:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/15 09:38:06 [notice] 28#28: gracefully shutting down
+2023/10/15 09:38:06 [notice] 29#29: gracefully shutting down
+2023/10/15 09:38:06 [notice] 30#30: gracefully shutting down
+2023/10/15 09:38:06 [notice] 28#28: exiting
+2023/10/15 09:38:06 [notice] 29#29: exiting
+2023/10/15 09:38:06 [notice] 30#30: exiting
+2023/10/15 09:38:06 [notice] 37#37: gracefully shutting down
+2023/10/15 09:38:06 [notice] 41#41: gracefully shutting down
+2023/10/15 09:38:06 [notice] 31#31: gracefully shutting down
+2023/10/15 09:38:06 [notice] 35#35: gracefully shutting down
+2023/10/15 09:38:06 [notice] 28#28: exit
+2023/10/15 09:38:06 [notice] 29#29: exit
+2023/10/15 09:38:06 [notice] 37#37: exiting
+2023/10/15 09:38:06 [notice] 41#41: exiting
+2023/10/15 09:38:06 [notice] 31#31: exiting
+2023/10/15 09:38:06 [notice] 35#35: exiting
+2023/10/15 09:38:06 [notice] 32#32: gracefully shutting down
+2023/10/15 09:38:06 [notice] 33#33: gracefully shutting down
+2023/10/15 09:38:06 [notice] 30#30: exit
+2023/10/15 09:38:06 [notice] 32#32: exiting
+2023/10/15 09:38:06 [notice] 31#31: exit
+2023/10/15 09:38:06 [notice] 41#41: exit
+2023/10/15 09:38:06 [notice] 37#37: exit
+2023/10/15 09:38:06 [notice] 33#33: exiting
+2023/10/15 09:38:06 [notice] 35#35: exit
+2023/10/15 09:38:06 [notice] 32#32: exit
+2023/10/15 09:38:06 [notice] 33#33: exit
+2023/10/15 09:38:06 [notice] 34#34: gracefully shutting down
+2023/10/15 09:38:06 [notice] 34#34: exiting
+2023/10/15 09:38:06 [notice] 34#34: exit
+2023/10/15 09:38:06 [notice] 36#36: gracefully shutting down
+2023/10/15 09:38:06 [notice] 36#36: exiting
+2023/10/15 09:38:06 [notice] 36#36: exit
+2023/10/15 09:38:06 [notice] 38#38: gracefully shutting down
+2023/10/15 09:38:06 [notice] 42#42: gracefully shutting down
+2023/10/15 09:38:06 [notice] 39#39: gracefully shutting down
+2023/10/15 09:38:06 [notice] 40#40: gracefully shutting down
+2023/10/15 09:38:06 [notice] 38#38: exiting
+2023/10/15 09:38:06 [notice] 42#42: exiting
+2023/10/15 09:38:06 [notice] 39#39: exiting
+2023/10/15 09:38:06 [notice] 40#40: exiting
+2023/10/15 09:38:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/15 09:38:06 [notice] 39#39: exit
+2023/10/15 09:38:06 [notice] 40#40: exit
+2023/10/15 09:38:06 [notice] 38#38: exit
+2023/10/15 09:38:06 [notice] 42#42: exit
+2023/10/15 09:38:06 [notice] 43#43: gracefully shutting down
+2023/10/15 09:38:06 [notice] 28#28: gracefully shutting down
+2023/10/15 09:38:06 [notice] 32#32: gracefully shutting down
+2023/10/15 09:38:06 [notice] 28#28: exiting
+2023/10/15 09:38:06 [notice] 43#43: exiting
+2023/10/15 09:38:06 [notice] 33#33: gracefully shutting down
+2023/10/15 09:38:06 [notice] 33#33: exiting
+2023/10/15 09:38:06 [notice] 43#43: exit
+2023/10/15 09:38:06 [notice] 28#28: exit
+2023/10/15 09:38:06 [notice] 32#32: exiting
+2023/10/15 09:38:06 [notice] 38#38: gracefully shutting down
+2023/10/15 09:38:06 [notice] 33#33: exit
+2023/10/15 09:38:06 [notice] 38#38: exiting
+2023/10/15 09:38:06 [notice] 32#32: exit
+2023/10/15 09:38:06 [notice] 38#38: exit
+2023/10/15 09:38:06 [notice] 29#29: gracefully shutting down
+2023/10/15 09:38:06 [notice] 41#41: gracefully shutting down
+2023/10/15 09:38:06 [notice] 29#29: exiting
+2023/10/15 09:38:06 [notice] 41#41: exiting
+2023/10/15 09:38:06 [notice] 35#35: gracefully shutting down
+2023/10/15 09:38:06 [notice] 29#29: exit
+2023/10/15 09:38:06 [notice] 37#37: gracefully shutting down
+2023/10/15 09:38:06 [notice] 30#30: gracefully shutting down
+2023/10/15 09:38:06 [notice] 39#39: gracefully shutting down
+2023/10/15 09:38:06 [notice] 35#35: exiting
+2023/10/15 09:38:06 [notice] 37#37: exiting
+2023/10/15 09:38:06 [notice] 30#30: exiting
+2023/10/15 09:38:06 [notice] 39#39: exiting
+2023/10/15 09:38:06 [notice] 35#35: exit
+2023/10/15 09:38:06 [notice] 41#41: exit
+2023/10/15 09:38:06 [notice] 37#37: exit
+2023/10/15 09:38:06 [notice] 39#39: exit
+2023/10/15 09:38:06 [notice] 30#30: exit
+2023/10/15 09:38:06 [notice] 36#36: gracefully shutting down
+2023/10/15 09:38:06 [notice] 42#42: gracefully shutting down
+2023/10/15 09:38:06 [notice] 36#36: exiting
+2023/10/15 09:38:06 [notice] 42#42: exiting
+2023/10/15 09:38:06 [notice] 43#43: gracefully shutting down
+2023/10/15 09:38:06 [notice] 34#34: gracefully shutting down
+2023/10/15 09:38:06 [notice] 42#42: exit
+2023/10/15 09:38:06 [notice] 36#36: exit
+2023/10/15 09:38:06 [notice] 43#43: exiting
+2023/10/15 09:38:06 [notice] 34#34: exiting
+2023/10/15 09:38:06 [notice] 40#40: gracefully shutting down
+2023/10/15 09:38:06 [notice] 40#40: exiting
+2023/10/15 09:38:06 [notice] 34#34: exit
+2023/10/15 09:38:06 [notice] 40#40: exit
+2023/10/15 09:38:06 [notice] 43#43: exit
+2023/10/15 09:38:06 [notice] 31#31: gracefully shutting down
+2023/10/15 09:38:06 [notice] 31#31: exiting
+2023/10/15 09:38:06 [notice] 31#31: exit
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/10/15 09:38:06 [notice] 1#1: worker process 33 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2023/10/15 09:38:06 [notice] 1#1: worker process 30 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/10/15 09:38:06 [notice] 1#1: worker process 34 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 29 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 34 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/10/15 09:38:06 [notice] 1#1: worker process 36 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/10/15 09:38:06 [notice] 1#1: worker process 41 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 28 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 41
+2023/10/15 09:38:06 [notice] 1#1: worker process 41 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/10/15 09:38:06 [notice] 1#1: worker process 28 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 42
+2023/10/15 09:38:06 [notice] 1#1: worker process 43 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 39 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 42 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/10/15 09:38:06 [notice] 1#1: worker process 32 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 35 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 39 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 39
+2023/10/15 09:38:06 [notice] 1#1: worker process 42 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2023/10/15 09:38:06 [notice] 1#1: worker process 35 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/10/15 09:38:06 [notice] 1#1: worker process 40 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/10/15 09:38:06 [notice] 1#1: worker process 38 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 43
+2023/10/15 09:38:06 [notice] 1#1: worker process 29 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 43 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 36 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/10/15 09:38:06 [notice] 1#1: worker process 30 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: worker process 37 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2023/10/15 09:38:06 [notice] 1#1: worker process 31 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 38
+2023/10/15 09:38:06 [notice] 1#1: worker process 38 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2023/10/15 09:38:06 [notice] 1#1: worker process 32 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 40
+2023/10/15 09:38:06 [notice] 1#1: worker process 40 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2023/10/15 09:38:06 [notice] 1#1: worker process 31 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: signal 29 (SIGIO) received
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2023/10/15 09:38:06 [notice] 1#1: worker process 33 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: exit
+2023/10/15 09:38:06 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2023/10/15 09:38:06 [notice] 1#1: worker process 37 exited with code 0
+2023/10/15 09:38:06 [notice] 1#1: exit
+2023/10/15 09:38:11 [notice] 1#1: using the "epoll" event method
+2023/10/15 09:38:11 [notice] 1#1: nginx/1.25.0
+2023/10/15 09:38:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/15 09:38:11 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/15 09:38:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/15 09:38:11 [notice] 1#1: start worker processes
+2023/10/15 09:38:11 [notice] 1#1: start worker process 28
+2023/10/15 09:38:11 [notice] 1#1: start worker process 29
+2023/10/15 09:38:11 [notice] 1#1: start worker process 30
+2023/10/15 09:38:11 [notice] 1#1: start worker process 31
+2023/10/15 09:38:11 [notice] 1#1: start worker process 32
+2023/10/15 09:38:11 [notice] 1#1: start worker process 33
+2023/10/15 09:38:11 [notice] 1#1: start worker process 34
+2023/10/15 09:38:11 [notice] 1#1: start worker process 35
+2023/10/15 09:38:11 [notice] 1#1: using the "epoll" event method
+2023/10/15 09:38:11 [notice] 1#1: nginx/1.25.0
+2023/10/15 09:38:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/10/15 09:38:11 [notice] 1#1: OS: Linux 6.2.0-34-generic
+2023/10/15 09:38:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/15 09:38:11 [notice] 1#1: start worker processes
+2023/10/15 09:38:11 [notice] 1#1: start worker process 36
+2023/10/15 09:38:11 [notice] 1#1: start worker process 28
+2023/10/15 09:38:11 [notice] 1#1: start worker process 37
+2023/10/15 09:38:11 [notice] 1#1: start worker process 29
+2023/10/15 09:38:11 [notice] 1#1: start worker process 38
+2023/10/15 09:38:11 [notice] 1#1: start worker process 30
+2023/10/15 09:38:11 [notice] 1#1: start worker process 39
+2023/10/15 09:38:11 [notice] 1#1: start worker process 31
+2023/10/15 09:38:11 [notice] 1#1: start worker process 40
+2023/10/15 09:38:11 [notice] 1#1: start worker process 32
+2023/10/15 09:38:11 [notice] 1#1: start worker process 41
+2023/10/15 09:38:11 [notice] 1#1: start worker process 33
+2023/10/15 09:38:11 [notice] 1#1: start worker process 42
+2023/10/15 09:38:11 [notice] 1#1: start worker process 34
+2023/10/15 09:38:11 [notice] 1#1: start worker process 35
+2023/10/15 09:38:11 [notice] 1#1: start worker process 43
+2023/10/15 09:38:11 [notice] 1#1: start worker process 36
+2023/10/15 09:38:11 [notice] 1#1: start worker process 37
+2023/10/15 09:38:11 [notice] 1#1: start worker process 38
+2023/10/15 09:38:11 [notice] 1#1: start worker process 39
+2023/10/15 09:38:11 [notice] 1#1: start worker process 40
+2023/10/15 09:38:11 [notice] 1#1: start worker process 41
+2023/10/15 09:38:11 [notice] 1#1: start worker process 42
+2023/10/15 09:38:11 [notice] 1#1: start worker process 43
+2023/10/15 09:38:17 [warn] 29#29: *2 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 09:38:17 [warn] 28#28: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 09:39:44 [warn] 31#31: *5 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 09:39:44 [warn] 29#29: *3 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:08:35 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:08:35 [warn] 30#30: *5 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:08:52 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:08:52 [warn] 31#31: *7 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:09:30 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:09:30 [warn] 32#32: *9 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:09:41 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:09:41 [warn] 33#33: *11 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:09:53 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:09:53 [warn] 34#34: *13 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:10:44 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:10:44 [warn] 35#35: *15 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:10:55 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:10:55 [warn] 36#36: *17 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:11:10 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:11:10 [warn] 37#37: *19 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:11:22 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:11:22 [warn] 38#38: *21 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:11:41 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:11:41 [warn] 39#39: *23 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000012, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:11:58 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:11:58 [warn] 40#40: *25 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000013, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:12:02 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:12:02 [warn] 41#41: *27 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000014, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:12:06 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:12:06 [warn] 42#42: *29 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000015, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:12:09 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:12:09 [warn] 43#43: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000016, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:12:37 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:12:37 [warn] 28#28: *33 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000017, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:13:05 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:13:05 [warn] 28#28: *35 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000018, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:13:15 [warn] 33#33: *8 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:13:15 [warn] 28#28: *37 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000019, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:15:07 [warn] 35#35: *27 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:15:07 [warn] 28#28: *39 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000020, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:19:28 [warn] 38#38: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:19:49 [warn] 38#38: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:20:03 [warn] 38#38: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:20:45 [warn] 38#38: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:21:16 [warn] 38#38: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:22:17 [warn] 38#38: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:22:32 [warn] 38#38: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:22:46 [warn] 38#38: *31 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:24:05 [warn] 40#40: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:24:05 [warn] 28#28: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000021, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:25:09 [warn] 40#40: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:25:09 [warn] 28#28: *43 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000022, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:25:21 [warn] 40#40: *41 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:25:21 [warn] 28#28: *45 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000023, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:26:31 [warn] 42#42: *46 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:26:31 [warn] 28#28: *47 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000024, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:27:23 [warn] 42#42: *46 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000033, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:27:23 [warn] 28#28: *49 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000025, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:27:41 [warn] 42#42: *46 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000034, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:27:41 [warn] 28#28: *51 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000026, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:27:54 [warn] 42#42: *46 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000035, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:27:54 [warn] 28#28: *53 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000027, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:29:02 [warn] 28#28: *52 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000036, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:29:02 [warn] 28#28: *55 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000028, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:29:56 [warn] 28#28: *52 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000037, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:29:56 [warn] 28#28: *57 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000029, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:31:04 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000038, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:31:04 [warn] 28#28: *59 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000030, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:31:51 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000039, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:31:51 [warn] 28#28: *61 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000031, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:32:04 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000040, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:32:04 [warn] 28#28: *63 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000032, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:32:26 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000041, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:32:26 [warn] 29#29: *65 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000033, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:32:31 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000042, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:32:31 [warn] 29#29: *67 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000034, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:32:45 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000043, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:32:45 [warn] 29#29: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000035, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:33:00 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000044, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:33:00 [warn] 29#29: *71 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000036, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:33:18 [warn] 28#28: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000045, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:33:18 [warn] 29#29: *73 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000037, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:34:26 [warn] 29#29: *66 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000046, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:34:26 [warn] 29#29: *75 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000038, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:36:11 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000047, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:36:11 [warn] 29#29: *77 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000039, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:36:34 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000048, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:36:34 [warn] 29#29: *79 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000040, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:36:36 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000049, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:36:36 [warn] 29#29: *81 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000041, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:36:57 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000050, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:36:57 [warn] 29#29: *83 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000042, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:37:10 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000051, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:37:10 [warn] 29#29: *85 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000043, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:37:15 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000052, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:37:15 [warn] 29#29: *87 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000044, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:37:55 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000053, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:37:55 [warn] 29#29: *89 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000045, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:38:51 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000054, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:38:51 [warn] 29#29: *91 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000046, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:38:52 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000055, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:38:52 [warn] 29#29: *93 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000047, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:38:58 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000056, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:38:58 [warn] 29#29: *95 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000048, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:39:00 [warn] 28#28: *69 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000057, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:39:00 [warn] 30#30: *97 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000049, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:45:39 [warn] 29#29: *82 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000058, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:45:39 [warn] 30#30: *99 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000050, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:46:33 [warn] 29#29: *82 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000059, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:46:33 [warn] 30#30: *101 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000051, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:47:54 [warn] 28#28: *86 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000060, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:47:54 [warn] 30#30: *103 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000052, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:49:18 [warn] 29#29: *89 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000061, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:49:18 [warn] 30#30: *105 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000053, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:49:59 [warn] 29#29: *89 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000062, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:49:59 [warn] 30#30: *107 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000054, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:50:29 [warn] 29#29: *89 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000063, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:50:29 [warn] 30#30: *109 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000055, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:52:04 [warn] 28#28: *94 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000064, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:52:04 [warn] 30#30: *111 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000056, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:53:34 [warn] 29#29: *99 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000065, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:53:34 [warn] 30#30: *113 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000057, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:55:17 [warn] 29#29: *102 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000066, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:55:17 [warn] 30#30: *115 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000058, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:55:39 [warn] 29#29: *102 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000067, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:55:39 [warn] 30#30: *117 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000059, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:55:50 [warn] 29#29: *102 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000068, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:55:50 [warn] 30#30: *119 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000060, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 11:57:13 [warn] 29#29: *107 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000069, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:59:26 [warn] 29#29: *110 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000070, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 11:59:26 [warn] 30#30: *121 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000061, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 12:49:06 [warn] 30#30: *113 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000071, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 12:49:06 [warn] 30#30: *126 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000062, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 12:49:08 [warn] 30#30: *113 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000072, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 12:49:08 [warn] 30#30: *128 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000063, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 12:50:22 [warn] 29#29: *117 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000073, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
+2023/10/15 12:50:22 [warn] 31#31: *130 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000064, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
