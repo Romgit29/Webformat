@@ -1,6 +1,6 @@
 <?php
     header('Content-Type: application/json; charset=utf-8');
-    echo json_encode($_FILES['file']);
+    
     if(!array_key_exists('file', $_FILES) || $_FILES['file'] == null) sendError('Attach a file please');
     checkHashSum($_FILES['file']['tmp_name'], $_POST['filehash']);
     authorize( getallheaders()['Api-Key'] );

@@ -1526,3 +1526,4 @@
 2023/10/15 12:49:08 [warn] 30#30: *128 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000063, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
 2023/10/15 12:50:22 [warn] 29#29: *117 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000073, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
 2023/10/15 12:50:22 [warn] 31#31: *130 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000064, client: 172.23.0.3, server: localhost, request: "POST /recieve.php HTTP/1.1", host: "nginx-webformat2"
+2023/10/15 13:19:30 [warn] 29#29: *129 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000074, client: 172.23.0.1, server: localhost, request: "POST /send.php HTTP/1.1", host: "localhost:8083"
