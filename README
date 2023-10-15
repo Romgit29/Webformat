@@ -1,4 +1,5 @@
 Запуск проекта: sudo docker compose up -d из папки с docker-compose
+
 Маршруты: 
 1. http://localhost:8083/send.php
 Принимает в качестве параметров url (на который будет отправлять запрос) и file (прикреплённый файл, который будет отправлен).
@@ -8,6 +9,12 @@
 Страницы (присутствуют только на ветке cockie_authorization):
 http://localhost:8083/login.html - логин
 http://localhost:8083/send.html - отправка файла
+
+БД
+localhost:5051
+база данных: postgres
+пользователь: webformat
+пароль: 123
 
 Таблицы: 
 api_keys (serial4 id, varchar api_key, varchar description)
