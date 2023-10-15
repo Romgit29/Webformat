@@ -9,3 +9,7 @@
 http://localhost:8083/login.html - логин
 http://localhost:8083/send.html - отправка файла
 
+Таблицы: 
+api_keys (serial4 id, varchar api_key, varchar description)
+users (serial4 id, varchar login, varchar password)
+
